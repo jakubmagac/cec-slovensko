@@ -1,30 +1,26 @@
 <template>
-  <v-row justify="center" align="center" style="background-color: #fff; ">
-    <v-col cols="12">
-      <v-container style="padding: 4em 0; margin: 4em auto;">
-        <v-row justify="center" align="center">
-          <v-col cols="10">
-            <p>On this page you can find details about all workshops at CECarinthia</p>
-            <v-expansion-panels accordion>
-              <v-expansion-panel
-                v-for="w in workshops"
-                :key="w.id"
-              >
-                <v-expansion-panel-header>
-                  <h2 style="color: #6EC1E4;">
-                    {{ w.name }}
-                  </h2>
-                </v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  {{ w.description }}
-                </v-expansion-panel-content>
-              </v-expansion-panel>
-            </v-expansion-panels>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-col>
-  </v-row>
+  <v-container :style="$vuetify.breakpoint.smAndDown ? 'padding: 2em 0' : 'padding: 2em 0'">
+    <v-row justify="center" align="center">
+      <v-col cols="11" md="10">
+        <p>On this page you can find details about all workshops at CECarinthia</p>
+        <v-expansion-panels accordion>
+          <v-expansion-panel
+            v-for="w in workshops"
+            :key="w.id"
+          >
+            <v-expansion-panel-header>
+              <h2 style="color: #6EC1E4;">
+                {{ w.name }}
+              </h2>
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              {{ w.description }}
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
