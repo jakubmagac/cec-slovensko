@@ -51,7 +51,7 @@
     <main class="app">
       <v-container>
         <v-row justify="center">
-          <v-col cols="8">
+          <v-col cols="12" md="8">
             <div ref="content" class="layout-container">
               <Nuxt />
             </div>
@@ -122,7 +122,6 @@ export default {
   background-color: #fff;
 }
 .layout-container {
-  text-align: justify;
   padding: 4em 0;
 
   @media screen and (max-width: 960px)  {
