@@ -95,9 +95,14 @@ export default {
 </script>
 
 <style lang="scss">
+.v-application {
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
 .v-application--wrap {
   justify-content: space-between;
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 
 .drawer-button {
@@ -114,7 +119,7 @@ export default {
 
 .app {
   color: #0c0c0c;
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 .layout-container {
   text-align: justify;

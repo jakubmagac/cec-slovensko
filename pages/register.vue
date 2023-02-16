@@ -5,7 +5,7 @@
     <h3>Fees</h3>
     <p>The fees for next IAESTE CEC in Slovakia are as follows:</p>
 
-    <div class="d-flex my-8" style="justify-content: space-between;">
+    <div class="my-8" style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px;">
       <div class="card">
         <p><strong>130 EUR</strong></p>
         <p>IAESTE CER<br> Full Members </p>
@@ -36,10 +36,13 @@ export default {
 
 <style>
 .card {
-  background-color: #F2C4E3;
-  padding: 2em;
+  background-color: #D91D5D;
+  padding: 1em;
   text-align: center;
-  box-shadow: 10px 5px 27px -17px rgba(0,0,0,0.75);
-  border-radius: 6px;
+  border: 0;
+  border-radius: 8px;
+  opacity: 0.9;
+  color: white;
+  box-shadow: 6px 7px 19px 4px rgb(91, 91, 91)
 }
 </style>

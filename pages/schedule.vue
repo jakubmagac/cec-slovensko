@@ -130,7 +130,8 @@ table {
   /* border: 1px solid #0c0c0c; */
   box-shadow: 10px 10px 37px -17px rgba(0,0,0,0.75);
   border-radius: 6px;
-  background-color: #F2C4E3;
+  background-color: #D91D5D;;
+  color: #fff;
   padding: 2em;
 }
 </style>

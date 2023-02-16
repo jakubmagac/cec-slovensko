@@ -1,30 +1,31 @@
 <template>
-  <div class="d-flex py-16">
-    <div style="position: relative; left: -50px;">
-      <v-img
-        lazy-src="/janosik_logo.jpg"
-        src="/janosik_logo.jpg"
-        max-width="300px"
-        max-height="300px"
-        class="mb-6 image-animation"
-        style="position: relative; z-index: 1;"
-      />
-      <div style="width: 300px; height: 300px; background-color: #f2c4e3; position: absolute; bottom: 0px; left: 20px; z-index: 0; box-shadow: 10px 10px 37px -17px rgba(0,0,0,0.75); border-radius: 6px;" />
-    </div>
-    <div style="display: flex; flex-direction: column; justify-content: center;">
-      <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
-      <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in Slovakia from 26th to 28th May 2023!</p>
-      <p>See you soon in Slovakia!</p>
-      <p>Your Organizing Team</p>
-      <v-btn
-        to='/register'
-        style="background-color: #f2c4e3;"
-        text
-      >
-        <strong>Register Now</strong>
-      </v-btn>
-    </div>
-  </div>
+  <v-container class="py-16">
+    <v-row>
+      <v-col cols="12" md="6">
+        <v-img
+          lazy-src="/janosik_logo.jpg"
+          src="/janosik_logo.jpg"
+          max-width="300px"
+          max-height="300px"
+          class="mb-6 image-animation"
+          style="position: relative; z-index: 1;"
+        />
+      </v-col>
+      <v-col cols="12" md="6" class="d-flex" style="flex-direction: column; justify-content: center;">
+        <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
+        <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in Slovakia from 26th to 28th May 2023!</p>
+        <p>See you soon in Slovakia!</p>
+        <p>Your Organizing Team</p>
+        <v-btn
+          to='/register'
+          style="background-color: #D91D5D; color: #f9f9f9;"
+          text
+        >
+          <strong>Register Now</strong>
+        </v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
