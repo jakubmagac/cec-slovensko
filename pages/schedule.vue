@@ -2,9 +2,9 @@
   <div class="py-16">
     <h1>Schedule</h1>
     <div>
-      <table>
+      <table class="mb-6">
         <tr>
-          <td>Friday May 13th</td>
+          <td><h4>Friday May 13th</h4></td>
         </tr>
         <tr>
           <td>15:00 – 18:00</td>
@@ -30,7 +30,7 @@
 
       <table>
         <tr>
-          <td>Friday May 13th</td>
+          <td><h4>Friday May 13th</h4></td>
         </tr>
         <tr>
           <td>15:00 – 18:00</td>
@@ -64,4 +64,9 @@ export default {
 </script>
 
 <style>
+table {
+  border: 1px solid #0c0c0c;
+  background-color: #F2C4E3;
+  padding: 2em;
+}
 </style>

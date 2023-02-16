@@ -3,13 +3,16 @@
     <header>
       <v-navigation-drawer
         v-model="sidebar"
+        disable-resize-watcher
         class="hidden-md-and-up"
+        style="background-color: #0c0c0c"
         app
       >
         <a
           v-for="item in menuItems"
           :key="item.title"
           :href="item.path"
+          class="menu-link"
         >
           <div>
             {{ item.title }}
@@ -17,14 +20,12 @@
         </a>
       </v-navigation-drawer>
 
-      <v-app-bar color="black" app>
+      <v-app-bar color="#0c0c0c" app>
         <v-img
           lazy-src="/logo.png"
           src="/logo.png"
-          max-height="75"
-          min-height="75"
-          max-width="75"
-          min-width="75"
+          max-height="50"
+          max-width="200"
         />
         <v-spacer />
         <span class="hidden-md-and-up">
@@ -36,6 +37,7 @@
             :key="item.title"
             :to="item.path"
             style="color: white;"
+            class="menu-link"
             text
           >
             {{ item.title }}
@@ -70,13 +72,8 @@ export default {
   data () {
     return {
       clipped: false,
-      drawer: false,
       fixed: false,
       miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js',
-      animation: false,
       sidebar: false,
       menuItems: [
         { title: 'Home', path: '/' },
@@ -94,6 +91,15 @@ export default {
 </script>
 
 <style lang="scss">
+.v-application--wrap {
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
 .app {
   color: #0c0c0c;
   background-color: #f2f2f2;
@@ -108,6 +114,7 @@ export default {
 }
 
 footer {
+  border-top: 1px solid #0c0c0c;
   background-color: #5b5b5b;
   padding: 2em 0;
   color: #DBDBDB;

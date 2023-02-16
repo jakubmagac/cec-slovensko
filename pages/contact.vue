@@ -1,16 +1,18 @@
 <template>
   <div class="py-16">
-    <div>
-      <v-img
-        lazy-src="/sano.png"
-        src="/sano.png"
-        max-width="200px"
-        max-height="200px"
-        class="mb-6"
-        style="border-radius: 100%; margin: 0 auto; border: 5px solid #f2c4e3;"
-      />
+    <div class="d-flex justify-center">
+      <div style="border: 1px solid #0c0c0c; border-radius: 100%;" class="mb-6">
+        <v-img
+          lazy-src="/sano.png"
+          src="/sano.png"
+          max-width="200px"
+          max-height="200px"
+          style="border-radius: 100%; margin: 0 auto; border: 5px solid #f2c4e3;"
+        />
+      </div>
     </div>
-    <div style="display: flex; flex-direction: column; justify-content: center;">
+    <div>
+      <h3>Hello I am Sano</h3>
       <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
       <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in the Slovak Republic from 13th to 15th May 2022!</p>
       <p>See you soon in the Slovak Republic!</p>
@@ -24,19 +26,3 @@ export default {
   name: 'ContactPage'
 }
 </script>
-
-<style>
-.image-animation:hover {
-  position: relative;
-  cursor: pointer;
-  animation-name: imageAnimation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes imageAnimation {
-  0% { left: 0px; top: 0px; }
-  50% { left: 10px; top: 10px }
-  100% { left: 0px; top: 40px }
-}
-</style>
