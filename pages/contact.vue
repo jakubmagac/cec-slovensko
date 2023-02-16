@@ -1,15 +1,14 @@
 <template>
-  <div class="d-flex py-16">
-    <div style="position: relative; left: -50px;">
+  <div class="py-16">
+    <div>
       <v-img
-        lazy-src="/janosik_logo.jpg"
-        src="/janosik_logo.jpg"
-        max-width="300px"
-        max-height="300px"
-        class="mb-6 image-animation"
-        style="position: relative; z-index: 1;"
+        lazy-src="/sano.png"
+        src="/sano.png"
+        max-width="200px"
+        max-height="200px"
+        class="mb-6"
+        style="border-radius: 100%; margin: 0 auto; border: 5px solid #f2c4e3;"
       />
-      <div style="width: 300px; height: 300px; background-color: #f2c4e3; position: absolute; bottom: 0px; left: 20px; z-index: 0;" />
     </div>
     <div style="display: flex; flex-direction: column; justify-content: center;">
       <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
@@ -22,7 +21,7 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'ContactPage'
 }
 </script>
 

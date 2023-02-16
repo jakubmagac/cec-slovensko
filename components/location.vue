@@ -32,7 +32,7 @@
             </v-sheet>
           </v-carousel-item>
         </v-carousel>
-        <div style="border: 1px solid #000; text-align: center;" class="mt-4 py-4">
+        <div style="border: 1px solid #000; text-align: center; background-color: #F2C4E3;" class="mt-4 py-4">
           <h4>How to get there</h4>
         </div>
       </v-col>

@@ -1,5 +1,7 @@
 <template>
-  <v-container :style="$vuetify.breakpoint.smAndDown ? 'padding: 2em 0' : 'padding: 2em 0'">
+  <v-container
+    :style="$vuetify.breakpoint.smAndDown ? 'padding: 2em 0' : 'padding: 2em 0'"
+  >
     <v-row justify="center" align="center">
       <v-col cols="11" md="10">
         <h1>About CEC</h1>
@@ -18,3 +20,10 @@ export default {
   name: 'AboutComponent'
 }
 </script>
+
+<style>
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+</style>
