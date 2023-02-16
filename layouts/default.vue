@@ -130,8 +130,7 @@ export default {
 }
 
 footer {
-  border-top: 1px solid #0c0c0c;
-  background-color: #5b5b5b;
+  background-color: #0B3D59;
   padding: 2em 0;
   color: #DBDBDB;
 }
