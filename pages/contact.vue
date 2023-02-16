@@ -1,7 +1,7 @@
 <template>
   <div class="py-16">
     <div class="d-flex justify-center">
-      <div style="border: 1px solid #0c0c0c; border-radius: 100%;" class="mb-6">
+      <div style=" border-radius: 100%;" class="mb-6">
         <v-img
           lazy-src="/sano.png"
           src="/sano.png"

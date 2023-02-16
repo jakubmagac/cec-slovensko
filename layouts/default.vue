@@ -84,7 +84,8 @@ export default {
         { title: 'Location', path: '/location' },
         { title: 'Schedule', path: '/schedule' },
         { title: 'Workshops', path: '/workshops' },
-        { title: 'Contat us', path: '/contact' }
+        { title: 'Contact us', path: '/contact' },
+        { title: 'Terms & Conditions', path: '/terms-conditions' }
       ]
     }
   },
@@ -109,10 +110,6 @@ export default {
   padding: 2em 0;
   color: white !important;
   cursor: pointer;
-}
-
-.menu-link:hover {
-  color: red;
 }
 
 .app {

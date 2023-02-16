@@ -1,9 +1,8 @@
 <template>
   <div class="py-16">
     <h1>Workshops</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nihil voluptas autem ipsam pariatur dolorum corrupti! Quaerat rem magnam illo reiciendis tenetur alias. Consequuntur temporibus harum laudantium modi dolorum? Nesciunt.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nihil voluptas autem ipsam pariatur dolorum corrupti! Quaerat rem magnam illo reiciendis tenetur alias. Consequuntur temporibus harum laudantium modi dolorum? Nesciunt.</p>
-    <div class="flip-card">
+    <p>Stay tuned...</p>
+    <!-- <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="janosik_logo.jpg" alt="Avatar" style="width:300px;height:300px;">
@@ -12,7 +11,7 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sequi? Tempora doloribus possimus velit corporis veniam cupiditate? Debitis quo nam, error eius iste, consectetur culpa repellat odit reprehenderit quisquam deleniti.</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

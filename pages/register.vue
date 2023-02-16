@@ -1,30 +1,30 @@
 <template>
   <div class="py-16">
     <h1>Registration</h1>
-    <p>Registratrion is closed</p>
+    <p>The registration will start on March 13th. Check our social sites for more info.</p>
     <h3>Fees</h3>
-    <p>The fees for IAESTE CECzechia 2022 are as follows:</p>
+    <p>The fees for next IAESTE CEC in Slovakia are as follows:</p>
 
     <div class="d-flex my-8" style="justify-content: space-between;">
       <div class="card">
-        <p><strong>111 EUR</strong></p>
-        <p>for IAESTE CER<br> Full Members </p>
+        <p><strong>130 EUR</strong></p>
+        <p>IAESTE CER<br> Full Members </p>
       </div>
 
       <div class="card">
-        <p><strong>113 EUR</strong></p>
-        <p>for IAESTE CER<br> Full Members </p>
+        <p><strong>132 EUR</strong></p>
+        <p>IAESTE CER<br> Associate Members </p>
       </div>
 
       <div class="card">
-        <p><strong>115 EUR</strong></p>
-        <p>for IAESTE CER<br> Full Members </p>
+        <p><strong>134 EUR</strong></p>
+        <p>Others</p>
       </div>
     </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officia quod expedita numquam provident, eos suscipit, eius mollitia cum ipsum totam nulla, aut ullam labore magnam? Voluptatem omnis fugiat dicta!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officia quod expedita numquam provident, eos suscipit, eius mollitia cum ipsum totam nulla, aut ullam labore magnam? Voluptatem omnis fugiat dicta!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officia quod expedita numquam provident, eos suscipit, eius mollitia cum ipsum totam nulla, aut ullam labore magnam? Voluptatem omnis fugiat dicta!</p>
+    <p>The IAESTE CER Member Countries are listed below:</p>
+    <p>IAESTE CER Full Members: Austria, Bosnia and Herzegovina, Croatia, Czech Republic, Germany, Hungary, Poland, Slovakia, Slovenia</p>
+    <p>IAESTE CER Associate Members: Macedonia, Turkey</p>
   </div>
 </template>
 
@@ -39,6 +39,7 @@ export default {
   background-color: #F2C4E3;
   padding: 2em;
   text-align: center;
-  border: 1px solid #0c0c0c;
+  box-shadow: 10px 5px 27px -17px rgba(0,0,0,0.75);
+  border-radius: 6px;
 }
 </style>

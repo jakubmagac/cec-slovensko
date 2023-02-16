@@ -29,7 +29,10 @@
       <h2>
         How do I get there?
       </h2>
-      <div style="background-color: #F2C4E3; padding: 1em; border: 1px solid #0c0c0c;" class="mb-6">
+      <div
+        style="background-color: #F2C4E3; padding: 1em; box-shadow: 10px 10px 37px -17px rgba(0,0,0,0.75);
+  border-radius: 6px;"
+        class="mb-6">
         <p>Oh that’s quite simple. Once you cross the borders of Slovakia, just find the nearest road and stop a horse carriage. Local people are very kind and generous. They will have no problem with taking you to Ružomberok. </p>
         <p>Just kidding!</p>
       </div>
@@ -142,6 +145,5 @@ h1, h2 {
 }
 
 .v-expansion-panel {
-  border: 1px solid #0c0c0c;
 }
 </style>

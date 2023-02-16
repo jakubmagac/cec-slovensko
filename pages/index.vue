@@ -7,18 +7,18 @@
         max-width="300px"
         max-height="300px"
         class="mb-6 image-animation"
-        style="position: relative; z-index: 1; border: 1px solid #0c0c0c;"
+        style="position: relative; z-index: 1;"
       />
-      <div style="width: 300px; height: 300px; background-color: #f2c4e3; position: absolute; bottom: 0px; left: 20px; z-index: 0; border: 1px solid #0c0c0c;" />
+      <div style="width: 300px; height: 300px; background-color: #f2c4e3; position: absolute; bottom: 0px; left: 20px; z-index: 0; box-shadow: 10px 10px 37px -17px rgba(0,0,0,0.75); border-radius: 6px;" />
     </div>
     <div style="display: flex; flex-direction: column; justify-content: center;">
       <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
-      <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in the Slovak Republic from 13th to 15th May 2022!</p>
-      <p>See you soon in the Slovak Republic!</p>
-      <p>Your Organizing Team of IAESTE CECkia</p>
+      <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in Slovakia from 26th to 28th May 2023!</p>
+      <p>See you soon in Slovakia!</p>
+      <p>Your Organizing Team</p>
       <v-btn
         to='/register'
-        style="background-color: #f2c4e3; border: 1px solid #0c0c0c;"
+        style="background-color: #f2c4e3;"
         text
       >
         <strong>Register Now</strong>
@@ -37,9 +37,9 @@ export default {
 .image-animation {
   position: relative;
   cursor: pointer;
-  animation-name: imageAnimation;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /* animation-name: imageAnimation; */
+  /* animation-duration: 8s; */
+  /* animation-iteration-count: infinite; */
 }
 
 .register-button {
