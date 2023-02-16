@@ -8,16 +8,20 @@
         style="background-color: #0c0c0c"
         app
       >
-        <a
+        <div
           v-for="item in menuItems"
           :key="item.title"
-          :href="item.path"
-          class="menu-link"
+          class="drawer-button"
         >
-          <div>
-            {{ item.title }}
-          </div>
-        </a>
+          <a
+            :href="item.path"
+            class="menu-link"
+          >
+            <div>
+              {{ item.title }}
+            </div>
+          </a>
+        </div>
       </v-navigation-drawer>
 
       <v-app-bar color="#0c0c0c" app>
@@ -37,7 +41,6 @@
             :key="item.title"
             :to="item.path"
             style="color: white;"
-            class="menu-link"
             text
           >
             {{ item.title }}
@@ -96,8 +99,20 @@ export default {
   background-color: #f2f2f2;
 }
 
+.drawer-button {
+  padding: 1em 0;
+}
+
 .menu-link {
   text-decoration: none;
+  text-align: center;
+  padding: 2em 0;
+  color: white !important;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  color: red;
 }
 
 .app {
