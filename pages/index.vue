@@ -1,28 +1,32 @@
 <template>
-  <v-container class="py-16">
-    <v-row>
+  <v-container class="py-16" :style="$vuetify.breakpoint.mdAndDown ? 'margin-top: 60px' : null">
+    <v-row justify="center">
       <v-col cols="12" md="6">
-        <v-img
-          lazy-src="/janosik_logo.jpg"
-          src="/janosik_logo.jpg"
-          max-width="300px"
-          max-height="300px"
-          class="mb-6 image-animation"
-          style="position: relative; z-index: 1;"
-        />
+        <div class="d-flex" style="justify-content: center;">
+          <v-img
+            lazy-src="/janosik_logo.jpg"
+            src="/janosik_logo.jpg"
+            max-width="300px"
+            max-height="300px"
+            class="mb-6 image-animation"
+            style="position: relative; z-index: 1;"
+          />
+        </div>
       </v-col>
       <v-col cols="12" md="6" class="d-flex" style="flex-direction: column; justify-content: center;">
-        <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
-        <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in Slovakia from 26th to 28th May 2023!</p>
-        <p>See you soon in Slovakia!</p>
-        <p>Your Organizing Team</p>
-        <v-btn
-          to='/register'
-          style="background-color: #D91D5D; color: #f9f9f9;"
-          text
-        >
-          <strong>Register Now</strong>
-        </v-btn>
+        <div>
+          <p>Dear IAESTE Board, Representatives, Workshop leaders and participants,</p>
+          <p>We are very pleased to invite you to the 46th IAESTE Central European Convention, taking place in Slovakia from 26th to 28th May 2023!</p>
+          <p>See you soon in Slovakia!</p>
+          <p>Your Organizing Team</p>
+          <v-btn
+            to='/register'
+            style="background-color: #D91D5D; color: #f9f9f9;"
+            text
+          >
+            <strong>Register Now</strong>
+          </v-btn>
+        </div>
       </v-col>
     </v-row>
   </v-container>

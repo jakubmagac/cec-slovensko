@@ -1,7 +1,7 @@
 <template>
-  <v-container class="py-16">
+  <v-container class="py-16" :style="$vuetify.breakpoint.mdAndDown ? 'margin-top: 40px' : 'margin-top: 80px'">
     <v-row justify="center">
-      <v-col cols="12" md="8">
+      <v-col cols="12" sm="10" md="8" lg="6">
         <h1>Terms & Conditions</h1>
         <h3>PAYMENT</h3>
         <p>Payment method and further instructions will be sent to you in a confirmation email right after you fill in and send the Registration Form.</p>

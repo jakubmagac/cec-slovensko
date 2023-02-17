@@ -1,7 +1,7 @@
 <template>
-  <div class="py-16">
-    <v-container>
-      <v-row>
+  <v-container class="py-16" :style="$vuetify.breakpoint.mdAndDown ? 'margin-top: 40px' : 'margin-top: 80px'">
+    <v-row justify="center">
+      <v-col cols="12" sm="10" md="8" lg="6">
         <div class="d-flex justify-center">
           <div style=" border-radius: 100%;" class="mb-6">
             <v-img
@@ -20,9 +20,9 @@
           <p>See you soon in the Slovak Republic!</p>
           <p>Your Organizing Team of IAESTE CECkia</p>
         </div>
-      </v-row>
-    </v-container>
-  </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

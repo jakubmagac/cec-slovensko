@@ -1,18 +1,22 @@
 <template>
-  <div class="py-16">
-    <h1>Workshops</h1>
-    <p>Stay tuned...</p>
-    <!-- <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="janosik_logo.jpg" alt="Avatar" style="width:300px;height:300px;">
-        </div>
-        <div class="flip-card-back">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sequi? Tempora doloribus possimus velit corporis veniam cupiditate? Debitis quo nam, error eius iste, consectetur culpa repellat odit reprehenderit quisquam deleniti.</p>
-        </div>
-      </div>
-    </div> -->
-  </div>
+  <v-container class="py-16" :style="$vuetify.breakpoint.mdAndDown ? 'margin-top: 40px' : 'margin-top: 80px'">
+    <v-row justify="center">
+      <v-col cols="12" sm="10" md="8" lg="6">
+        <h1>Workshops</h1>
+        <p>Stay tuned...</p>
+        <!-- <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="janosik_logo.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sequi? Tempora doloribus possimus velit corporis veniam cupiditate? Debitis quo nam, error eius iste, consectetur culpa repellat odit reprehenderit quisquam deleniti.</p>
+            </div>
+          </div>
+        </div> -->
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

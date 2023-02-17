@@ -41,6 +41,7 @@
             :key="item.title"
             :to="item.path"
             style="color: white;"
+            :style="$vuetify.breakpoint.mdAndDown ? 'font-size: 0.6rem' : '1rem'"
             text
           >
             {{ item.title }}
@@ -49,15 +50,7 @@
       </v-app-bar>
     </header>
     <main class="app">
-      <v-container>
-        <v-row justify="center">
-          <v-col cols="12" md="8">
-            <div ref="content" class="layout-container">
-              <Nuxt />
-            </div>
-          </v-col>
-        </v-row>
-      </v-container>
+      <Nuxt />
     </main>
     <footer class="text-center">
       <div class="d-flex justify-center mb-4">
@@ -117,16 +110,14 @@ export default {
   cursor: pointer;
 }
 
+.menu-link:hover {
+  color: #D91D5D !important;
+  background-color: #0c0c0cb0;
+}
+
 .app {
   color: #0c0c0c;
   background-color: #fff;
-}
-.layout-container {
-  padding: 4em 0;
-
-  @media screen and (max-width: 960px)  {
-    padding: 2em 0;
-  }
 }
 
 footer {
